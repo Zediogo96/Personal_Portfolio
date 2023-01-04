@@ -1,0 +1,45 @@
+.footer {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(20,20,20,0.8);
+}
+
+.footer-container {
+    max-width: 1140;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.footer-content-left, .footer-content-right {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.location, .phone, .email {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.location p {
+    line-height: 30px;
+}
+
+.socials {
+    margin-top: 1rem;
+}
+
+.footer-content-right h4 {
+    margin-bottom: 0.5rem;
+}
+
+
+@media screen and (max-width: 640px) {  
+    p {
+        font-size: 0.8rem;
+    }
+}
