@@ -2,9 +2,24 @@ import "./Footer.css";
 
 import React from 'react'
 
-import { FaHome, FaPhone, FaLaptop, FaFacebook, FaLinkedin, FaInstagram} from "react-icons/fa";
+import { FaHome, FaPhone, FaLaptop, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
+    // _blank opens the link in a new tab
+    const handleSocial = (e) => {
+        switch (e) {
+            case "fb": {
+                window.open("https://www.facebook.com/zediogo1996/", "_blank" ); break
+            }
+            case "ig": {
+                window.open("https://www.instagram.com/zediogo96/", "_blank"); break
+            }
+            case "li": {
+                window.open("https://www.linkedin.com/in/josédpinto/", "_blank"); break
+            }
+        }
+    }
+
     return (
         <div className="footer">
             <div className="footer-container">
@@ -31,15 +46,14 @@ const Footer = () => {
                     <h4> About me </h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
                     <div className="socials">
-                    <FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                    <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                    <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                    
+                        <FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} onClick={() => handleSocial('fb')} />
+                        <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} onClick={() => handleSocial('ig')} />
+                        <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} onClick={() => handleSocial('li')} />
 
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

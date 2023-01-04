@@ -33,13 +33,17 @@
     margin-top: 1rem;
 }
 
+.socials svg {
+    cursor: pointer;
+}
+
 .footer-content-right h4 {
     margin-bottom: 0.5rem;
 }
-
 
 @media screen and (max-width: 640px) {  
     p {
         font-size: 0.8rem;
     }
 }
+
