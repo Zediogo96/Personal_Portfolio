@@ -38,21 +38,77 @@
 .hero .content h1 {
     font-size: 3rem;
     padding: 1rem 0 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+    animation:
+        typing 2.5s steps(40, end)
+
 }
 
 .hero .content p {
     font-size: 2rem;
     font-weight: 200;
+    margin-bottom: 1rem;
+    animation: 1s ease-out 1s both 1 slide-down;
+
 }
 
 .content .btn {
     margin: 1rem 0.5rem;
 }
 
+.content .btn:first-child {
+    animation: 1s ease-out 1.5s both 1 appearAnim;
+}
+
+.content .btn:last-child {
+    animation: 1s ease-out 1.8s both 1 appearAnim;
+}
+
 .hero-img {
     width: 90%;
     height: 99%;
     margin-bottom: 2rem;
+    animation: 1s ease-out 1s both 1 slide-down;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes appearAnim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes bg {
@@ -90,7 +146,7 @@
         linear-gradient(to bottom, #c9c9c9 100%, #c9c9c9 100%);
     background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
     background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-    animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    animation: 1s ease-out 1s both 1 bg;
 }
 
 

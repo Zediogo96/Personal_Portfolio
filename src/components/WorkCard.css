@@ -33,8 +33,8 @@
     height: var(--card-height);
     box-shadow: rgba(245, 246, 246, 0.25) 0px 25px 50px -20px,
         rgba(255, 255, 255, 0.3) 0px 15px 30px -60px;
-    animation: 1s ease-out calc(1s * var(--i)) 1 slideInLeft;
-    animation-fill-mode: both;
+    animation: 1s ease-out calc(1s * var(--i)) both 1 slideInLeft;
+
     
 }
 
