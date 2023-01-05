@@ -36,6 +36,7 @@
 }
 
 .hero .content h1 {
+    color: rgb(182, 179, 179);
     font-size: 3rem;
     padding: 1rem 0 2rem;
     overflow: hidden;
@@ -140,10 +141,10 @@
     height: 25rem;
 
     background-repeat: no-repeat;
-    background-image: linear-gradient(to right, #c9c9c9 100%, #c9c9c9 100%),
-        linear-gradient(to bottom, #c9c9c9 100%, #c9c9c9 100%),
-        linear-gradient(to right, #c9c9c9 100%, #c9c9c9 100%),
-        linear-gradient(to bottom, #c9c9c9 100%, #c9c9c9 100%);
+    background-image: linear-gradient(to right, #535353 100%, #535353 100%),
+        linear-gradient(to bottom, #535353 100%, #535353 100%),
+        linear-gradient(to right, #535353 100%, #535353 100%),
+        linear-gradient(to bottom, #535353 100%, #535353 100%);
     background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
     background-position: 0 0, 100% 0, 100% 100%, 0 100%;
     animation: 1s ease-out 1s both 1 bg;
