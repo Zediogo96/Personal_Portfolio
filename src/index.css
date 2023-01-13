@@ -48,5 +48,6 @@ ul {
   border: 1px solid #000;
   position: absolute;
   border-radius: 15px;
-  pointer-events: 'none';
+  /* Adding it here was causing problems, need to add it in JS */
+  /* pointer-events: 'none'; */
 }
