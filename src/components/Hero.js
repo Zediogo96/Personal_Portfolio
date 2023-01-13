@@ -6,7 +6,15 @@ import { Link } from "react-router-dom"
 import IntroImg from "../assets/intro-bg.jpg"
 import MyImg from "../assets/my_photo_nobg.png"
 
+import { animateCircles, animateBackground } from "../js/animations";
+
 const Hero = () => {
+
+    React.useEffect(() => {
+        // animateBackground(document.querySelector(".mask"));
+        document.addEventListener("mousemove", animateCircles);
+    }, [])
+    
     return (
         <div className="hero">
             <div className="mask">

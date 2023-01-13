@@ -1,4 +1,4 @@
-document.onmousemove = animateCircles; // circle follow mouse
+ // circle follow mouse
 
 // map and filter 
 
@@ -8,14 +8,13 @@ function eraseCircles() {
   circles
     .filter(circle => getComputedStyle(circle).opacity === '0')
     .map(circle => circle.remove());
-  setTimeout(eraseCircles, 500);
+  setTimeout(eraseCircles, 450);
 }
 eraseCircles();
 
-
 var colors = ['#6B6361', '#876E58', '#C46F43']
 
-function animateCircles(event) {
+export function animateCircles(event) {
     var circle = document.createElement("div");
     circle.style.pointerEvents = "none";
     circle.setAttribute("class", "circle");
@@ -42,4 +41,13 @@ function animateCircles(event) {
     circle.style.height = "50px";
     circle.style.borderWidth = "2px";
     circle.style.opacity = 0;
+}
+
+
+export function animateBackground(elem) {
+
+    document.onmousemove = (e) => {
+      elem.style.setProperty('--x', (-e.clientX / 50)  + "px");
+      elem.style.setProperty('--y', (-e.clientY / 50) + "px");
+    };
 }

@@ -9,13 +9,11 @@
     content: "";
     background: url(../assets/projects_bg.jpg);
     background-size: cover;
-    background-position: center top;
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: -1;
+    background-position: var(--x) var(--y);
 }
 
 .heading {

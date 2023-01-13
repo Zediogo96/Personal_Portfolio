@@ -79,6 +79,7 @@
     animation: 1s ease-out 1s both 1 slide-down;
 }
 
+
 /* The typing effect */
 @keyframes typing {
     from {
@@ -148,6 +149,13 @@
     background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
     background-position: 0 0, 100% 0, 100% 100%, 0 100%;
     animation: 1s ease-out 1s both 1 bg;
+}
+
+.hero-animation:hover {
+    border-bottom: 1px solid #535353;
+    border-right: 1px solid #f3bc56;
+    border-top: 1px solid #535353;
+    border-left: 1px solid #f3bc56;
 }
 
 
