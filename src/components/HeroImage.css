@@ -15,7 +15,7 @@
     z-index: -1;
     background-position: var(--x) var(--y);
     /* make it bigger */
-    background-size: 120%;
+    background-size: 155%;
 }
 
 .heading {
