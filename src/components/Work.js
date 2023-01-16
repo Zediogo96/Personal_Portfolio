@@ -17,7 +17,7 @@ const Work = () => {
                             imgsrc={val.imgsrc}
                             title={val.title}
                             text={val.text}
-                            view_url={val.view_url}
+                            github_url={val.github_url}
                             idx = {idx}
                         />
                     )

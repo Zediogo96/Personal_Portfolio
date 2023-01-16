@@ -5,6 +5,11 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 const WorkCard = (props) => {
+
+    const handleOpenProject = (url) => {
+        window.open(url, "_blank" );
+    }
+
     return (
 
         <div className="project-card" style = {{'--i': props.idx}}>
@@ -14,7 +19,7 @@ const WorkCard = (props) => {
                 <p> {props.text} </p>
             </div>
             <div className="pro-btns">
-                <NavLink to={props.view_url} className="btn"> View </NavLink>
+                <NavLink onClick={() => handleOpenProject(props.github_url)} className="btn"> View </NavLink>
             </div>
         </div>
 

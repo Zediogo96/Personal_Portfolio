@@ -8,29 +8,25 @@ const ProjectCardData = [
         imgsrc : pro1,
         title: "File Transfer Protocol (FTP)",
         text: "Ips lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-        view_url: "",
-        github_url: ""
+        github_url: "https://github.com/Zediogo96/RCOM_proj1"
     },
     {
         imgsrc : pro2,
         title: "Event Management Website",
         text: "Ips lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-        view_url: "",
-        github_url: ""
+        github_url: "https://github.com/Zediogo96/RE-Event"
     },
     {
         imgsrc : pro3,
         title: "Duck Hunt Game in Minix",
         text: "Ips lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-        view_url: "",
-        github_url: ""
+        github_url: "https://github.com/Zediogo96/LCOM_Duck_Hunter"
     },
     {
         imgsrc : pro4,
         title: "Supaplex Game Clone",
         text: "Ips lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-        view_url: "",
-        github_url: ""
+        github_url: "https://github.com/Zediogo96/Supapl0x-game"
     },
     
 ]
