@@ -14,6 +14,8 @@
     position: absolute;
     z-index: -1;
     background-position: var(--x) var(--y);
+    /* make it bigger */
+    background-size: 120%;
 }
 
 .heading {
@@ -35,6 +37,6 @@
     text-align: center;
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
 
-}
+} */

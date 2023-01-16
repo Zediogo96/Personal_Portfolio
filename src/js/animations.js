@@ -16,9 +16,11 @@ var colors = ['#6B6361', '#876E58', '#C46F43']
 
 export function animateCircles(event) {
     var circle = document.createElement("div");
+    
+    // this is to prevent the circle from being clickable
     circle.style.pointerEvents = "none";
     circle.setAttribute("class", "circle");
-    document.body.appendChild(circle); // adds function to body
+    document.body.appendChild(circle); 
 
     // adds motion
     var scrollOffsetVertical = window.pageYOffset
