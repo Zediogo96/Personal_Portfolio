@@ -37,14 +37,14 @@ const AboutContent = () => {
 
             <div className="left">
                 <h1>Skills</h1>
-                <ul>
-                    <li> <p> C, C++, Java, Python, JavaScript, HTML, CSS </p> </li>
-                    <li> <h2>Frameworks</h2> </li>
-                    <li> <p> React, Node.js, Express.js, Bootstrap, Material UI </p> </li>
+                <ul className="skills">
+                    <li> C / C++ </li>
+                    <li> Java </li>
+                    <li> Python </li>
+                    <li> HTML / CSS </li>
+                    <li> JavaScript </li>
+                    <li> React </li>
                 </ul>
-                <Link to="/contact">
-                    <button className="btn"> Contact </button>
-                </Link>
             </div>
 
             <div className="right">
