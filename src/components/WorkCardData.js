@@ -7,25 +7,25 @@ const ProjectCardData = [
     {
         imgsrc : pro1,
         title: "File Transfer Protocol (FTP)",
-        text: "Ips lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        text: "Allows transfer of files between to PC connetected to a wired network.",
         github_url: "https://github.com/Zediogo96/RCOM_proj1"
     },
     {
         imgsrc : pro2,
         title: "Event Management Website",
-        text: "Ips lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        text: "Re-Event is a website that allows the creation of events and the management of the participants.",
         github_url: "https://github.com/Zediogo96/RE-Event"
     },
     {
         imgsrc : pro3,
         title: "Duck Hunt Game in Minix",
-        text: "Ips lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        text: "Clone of the classic game Duck Hunt, developed in C for the Minix operating system.",
         github_url: "https://github.com/Zediogo96/LCOM_Duck_Hunter"
     },
     {
         imgsrc : pro4,
         title: "Supaplex Game Clone",
-        text: "Ips lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        text: "Supaplex is a puzzle game developed in Java, using Lanterna.",
         github_url: "https://github.com/Zediogo96/Supapl0x-game"
     },
     
