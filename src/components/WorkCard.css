@@ -1,7 +1,7 @@
 /* how to declare a variable in css */
 :root {
     --card-width: 100%;
-    --card-height: 30rem;
+    --card-height: 35rem;
 }
 
 .work-container {
@@ -74,6 +74,7 @@
 }
 
 .pro-btns {
+
     position: absolute;
     top: 92%;
     /* center the button */
@@ -81,8 +82,12 @@
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    width: 30rem;
+    padding-top: 1rem;
+
+    /* align text to center */
+    text-align: center;
+    
 }
 
 .pro-btns .btn {
