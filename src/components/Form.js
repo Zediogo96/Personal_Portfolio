@@ -10,9 +10,10 @@ const Form = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_yhhftig', 'template_rigysf8', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_yhhftig', 'template_rigysf8', form.current, 'Dr-ljlTVVVygIYqfm')
             .then((result) => {
                 console.log(result.text);
+                console.log("Email sent successfully")
             }, (error) => {
                 console.log(error.text);
             });
