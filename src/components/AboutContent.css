@@ -59,3 +59,10 @@
     text-align: left;
     
 }
+
+/* media query */
+@media screen and (max-width: 1400px) {
+    .about .left {
+        margin: 5rem 10rem auto 10rem;
+    }
+}
